@@ -84,7 +84,9 @@ div.hehe {
     text-align: center;
     width: 120px;
     padding: 10px;
-    margin: 30px auto 30px auto;
+    margin: 23px;
+    margin-top: 0;
+    margin-bottom: 10px;
     max-width: 100%;
 }
 
@@ -113,14 +115,15 @@ img {
 }
 
 div.author {
-    font-size: 10px;
+    font-size: 18px;
     font-weight: bolder;
     display: flex;
     justify-content: flex-end;
 }
 .action {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 85px;
     background: #3882F6;
     margin: 70px;
@@ -134,7 +137,7 @@ div.author {
 }
 
 div.smallbody {
-    font-size: 15px;
+    font-size: 19px;
     font-weight: lighter;
 }
 
